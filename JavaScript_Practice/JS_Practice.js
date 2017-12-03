@@ -1,3 +1,4 @@
+/*
 let moonPhase = "full";
 let isFoggyNight = false;
 
@@ -50,6 +51,7 @@ The logical operator && checks if both sides of a condition are truthy.
 The logical operator || checks if either side is truthy. 
 */
 
+/*
 // Get Fahrenheit and Celsius Function
 const multiplyByNineFifths = (celsius) => {
     return celsius * (9/5);
@@ -104,6 +106,7 @@ const multiplyByNineFifths = (celsius) => {
   by the absence of a function name immediately trailing the function keyword.
   */
 
+  /*
   const square = function (number) {
     return number * number;
   };
@@ -121,3 +124,15 @@ return((1/6) * Math.PI * diameter * diameter * diameter);
 
 
 console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
+
+*/
+let stringOne = 'jack';
+let stringTwo = 'pepperjack';
+let newString = '';
+
+const findUnique = (string1, string2) => {
+for (var i in string1){
+    if (!(i in string2)){
+        newString += i;
+return(newString);
+    };
