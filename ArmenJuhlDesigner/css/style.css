@@ -1,0 +1,58 @@
+body{
+    font-family: Didot;
+  }
+  .title{
+    margin: 50px;
+    text-align: center;
+    text-size:2em;
+    color: white;
+    padding: 20px;
+   }
+  
+  .sub-title{
+    text-align: center;
+    text-size:2em;
+    color: white;
+  
+   }
+  
+  .navbar-header {
+      text-align: right;
+      /* color: #D87665; */
+      color: #3BB9FF;
+      font-weight: 900;
+      font-size: 18px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-right: 30px;
+    padding: 10px;
+    border: 30px;
+  }
+    .fixed-header {
+      top: 0;
+      width: 100%;
+      position: fixed;        
+      background: white;
+      padding: 20px 0;
+      clear: left;
+  /*     text-align: right; */
+      color: #3BB9FF;
+      margin:-10px;
+  
+      }
+      .fixed-footer {
+          bottom: 0;
+         width: 100%;
+      position: fixed;        
+      background: white;
+      padding: 10px 0;
+      clear: left;
+      text-align: left;
+      color: #3BB9FF;
+      margin: -10px;
+      }
+  
+  
+  
+  .accentuate-footer {
+    font-size: 25px;
+  }
